@@ -26,8 +26,6 @@ public class TextBoxTests {
         $("#currentAddress").setValue("Some address 1");
         $("#permanentAddress").setValue("Another address 2");
         $("#submit").click();
-
-        $("#submit").click();
         $("#output #name").shouldHave(text("Dima"));
        // $("#output").$("#userEmail").shouldHave(text("Dima"));
         $("#output #email").shouldHave(text("Dima@npc.com"));
